@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Homework Muestra el valor por defecto del CounterAPP 1`] = `
+<h2>
+  10
+</h2>
+`;

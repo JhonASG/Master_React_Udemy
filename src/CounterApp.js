@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import PropsTypes from "prop-types";
 
 //Functional component
-const CounterApp = ({value}) =>{
+const CounterApp = ({value = 10}) =>{
     const titulo = 'CounterApp';
     const [counter, setCounter] = useState(value);
     
@@ -30,7 +30,8 @@ const CounterApp = ({value}) =>{
 };
 
 CounterApp.propTypes = {
-    value: PropsTypes.number.isRequired
+    // value: PropsTypes.number.isRequired
+    value: PropsTypes.number
 }
 
 export default CounterApp;

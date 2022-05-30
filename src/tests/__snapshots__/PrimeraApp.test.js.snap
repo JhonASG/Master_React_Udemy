@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente <PrimeraApp /> Debe mostrar el mensaje "Hola soy Veguetta". 1`] = `
+<h2>
+  Hola soy Veguetta
+</h2>
+`;

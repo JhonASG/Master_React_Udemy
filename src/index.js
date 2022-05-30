@@ -25,7 +25,7 @@ PWA -> Aplicación web progresiva
 
 import React from 'react';
 import {createRoot} from 'react-dom/client';
-//import PrimeraApp from './PrimeraApp';
+// import PrimeraApp from './PrimeraApp';
 import CounterApp from './CounterApp';
 import './index.css';
 
@@ -35,20 +35,18 @@ la siguiente manera
 
     const nombre_variable = <nombre_componente new_properties=value />
 */
-
 /*
-//Esto es de la PrimeraAPP
+// Esto es de la PrimeraAPP
 
 const saludo = <PrimeraApp new_text={123} saludo="Hola soy Veguetta" />;
 const container = document.querySelector("#root");
 const root = createRoot(container);
 
-root.render(saludo);
-*/
+root.render(saludo);*/
 
 //Tarea nuevo componente
 
-const valorNumber = <CounterApp value={1998} />;
+const valorNumber = <CounterApp />;
 const container = document.querySelector('#root');
 const root = createRoot(container);
 
